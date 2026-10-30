@@ -4,15 +4,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>WDD 131 – Dynamic Web Fundamentals – Vladyslav Rudenko</title>
+    <meta name="description" content="<meta name=" description"
+        content="WDD 131 – Dynamic Web Fundamentals homepage by Vladyslav Rudenko. Learn about me, my interests in astronomy, astrophotography, and software development, and explore useful web development resources.">
+    <meta name="author" content="Vladyslav Rudenko">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
-    <header>Header</header>
-    <main>Main
-        <h1>WDD 131 | Vladyslav Rudenko</h1>
+    <header>
+        <span id="course-title">WDD 131 – Dynamic Web Fundamentals</span>
+        <nav>
+            <ul>
+                <li><a href="https://linkedin.com">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/.">Canvas</a></li>
+                <li><a
+                        href="https://www.churchofjesuschrist.org/study/scriptures/nt/luke/1?lang=eng&id=p37#p37">Scripture</a>
+                </li>
+                <li><a href="">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Vladyslav Rudenko</h1>
+        <section class="card">
+            <h2>About Me</h2>
+            <div class="bio">
+                <p>My name is Vladyslav and I go by Vlad. I live in Eagle Mountain, Utah. I currently study Software
+                    Development at BYU - I online. Some of my hobbies are astronomy, astrophotography and hiking.
+                    Also, my absolutely favorite pets are Golden Retrievers.</p>
+
+                <img src="images/profile.jpeg" alt="Vladyslav Rudenko">
+            </div>
+
+            <h3 class="state">Utah, USA</h3>
+            <div class="about-state">
+                <figure>
+                    <img src="images/flag-of-utah.jpg" alt="Flag of Utah">
+                    <figcaption>Official flag of Utah</figcaption>
+                </figure>
+                <p>Utah is a Western U.S. state famous for its northern ski mountains, southern red-rock
+                    national
+                    parks, and its capital, Salt Lake City, which houses the headquarters of The Church
+                    of
+                    Jesus Christ
+                    of Latter-day Saints.</p>
+            </div>
+        </section>
+        <section class="card resources">
+            <h2>Web Dev Resources</h2>
+            <div class="resources-links">
+                <ul>
+                    <li><a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a></li>
+                    <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+                    <li><a href="https://css-tricks.com/">CSS-Tricks</a></li>
+                    <li><a href="https://codepen.io/trending">CodePen</a></li>
+                    <li><a href="https://www.freecodecamp.org/">freeCodeCamp</a></li>
+                    <li><a href="https://validator.w3.org/">W3C Markup Validator</a></li>
+                </ul>
+            </div>
+        </section>
     </main>
-    <footer>Footer</footer>
+    <footer>
+        <p>©<span id="currentyear"></span> | Vladyslav Rudenko | Utah</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
 
 </body>
 
